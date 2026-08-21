@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   MessageSquare,
-  Github,
-  KanbanSquare,
+  GitBranch,
+  Kanban,
   FileText,
   Mail,
   BookOpen,
@@ -115,8 +115,8 @@ function SectionShell({ id, children, alt = false, className = "" }) {
 
 const SOURCE_NODES = [
   { label: "Slack", Icon: MessageSquare },
-  { label: "GitHub", Icon: Github },
-  { label: "Jira", Icon: KanbanSquare },
+  { label: "GitHub", Icon: GitBranch },
+  { label: "Jira", Icon: Kanban },
   { label: "Docs", Icon: FileText },
   { label: "Email", Icon: Mail },
   { label: "Wikis", Icon: BookOpen },
